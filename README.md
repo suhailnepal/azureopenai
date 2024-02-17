@@ -1,5 +1,6 @@
 ## Flask OpenAI Text Completion Application
 This is a Flask application that uses the Azure OpenAI API to generate text completions based on user input. The application is designed to take a series of prompts from the user and generate a story based on these prompts.
+<img width="1505" alt="image" src="https://github.com/suhailnepal/azureopenai/assets/16771552/3bc54888-973c-4696-a508-66eb2726a682">
 
 ## Getting Started
 To get started with this application, you need to clone the repository to your local machine and install the necessary dependencies.
