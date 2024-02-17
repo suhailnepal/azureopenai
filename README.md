@@ -8,7 +8,10 @@ To get started with this application, you need to clone the repository to your l
 ## Prerequisites
 You need to have Python installed on your machine. You also need to install the necessary Python packages. You can do this by running the following command in your terminal:
 
-`pip install -r requirements.txt`
+### Install Dependencies:
+`pip install -r requirements.txt` 
+
+### Activate Virtual Environment:
 `source env/bin/activate`
 
 ## Setting Up
