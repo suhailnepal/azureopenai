@@ -1,0 +1,32 @@
+<div style="overflow: hidden; background-color: #333;">
+  <div style="float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;">Storygenerator</div>
+  <div style="float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;">Home</div>
+  <div style="float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;">Privacy</div>
+</div>
+
+<h1>
+  Welcome to the story generator
+</h1>
+<form method="post">
+  <div>
+    <label style="width: 100px; display: inline-block;">Title:</label> <input name="title"/><br/><br/>
+  </div>
+  <div>
+    <label style="width: 100px; display: inline-block;">Name:</label> <input name="name"/><br/><br/>
+  </div>
+  <div>
+    <label style="width: 100px; display: inline-block;">Tone:</label> <input name="tone"/><br/><br/>
+  </div>
+  <div>
+    <label style="width: 100px; display: inline-block;">Creature:</label> <input name="creature"/><br/><br/>
+  </div>
+  <div>
+    <label style="width: 100px; display: inline-block;">Environment:</label> <input name="environment"/><br/><br/>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+
+{% if sentiment %}
+  <h2>Output:</h2>
+  <p>{{ sentiment }}</p>
+{% endif %}

@@ -1,0 +1,4 @@
+bootstrap-flask
+Flask-WTF
+openai
+
